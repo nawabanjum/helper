@@ -1,4 +1,5 @@
-  // End #C2MC-5209
+
+         //Export Json file
         private void exportToJson(string json, string fileName)
         {
             StringBuilder data = new StringBuilder();
@@ -26,6 +27,7 @@
 
             }
         }
+        //Export Datatable into csv file dot net core
         private void exportToCSV(DataTable dtData, string fileName)
         {
             StringBuilder data = new StringBuilder();
